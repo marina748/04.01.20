@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Игра - "Угадай число" </title>
+<style>
+	div {
+	position: absolute; /* абсолютное позиционирование элементов */
+	top: 15em; /* смещение от вержнего края */
+	right: 30%; /* смещение от правого края */
+	}
+	</style>
+<script src="f.js">
+</script>
+</head>
+<body background="https://cdn.pixabay.com/photo/2014/04/04/14/55/silver-313347_1280.jpg">
+
+
+	<div id="wrap">		
+		<h1 id="info">Отгадайте  число:</h1>
+		<input id="answer">
+		<button id="send" onclick="checkAnswer()">Ответить</button>
+		<p id="out"></p>
+	</div>
+
+	
+</body>
+</html>
